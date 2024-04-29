@@ -19,17 +19,9 @@ class MyApp extends StatelessWidget {
   }
 }
 
-class MainApp extends StatelessWidget {
-  const MainApp({super.key});
+class HomePage extends StatefulWidget {
+  const HomePage({Key? key}) : super(key: key);
 
   @override
-  Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: Scaffold(
-        body: Center(
-          child: Text('Hello World!'),
-        ),
-      ),
-    );
-  }
+  State<HomePage> createState() => _HomePageState();
 }

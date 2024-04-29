@@ -44,7 +44,7 @@ class _HomePageState extends State<HomePage> {
                 style: GoogleFonts.mPlus1(fontWeight: FontWeight.w500),
               ),
               Text(
-                "@CodeWithFlexZ",
+                "@iPrakharV",
                 style: GoogleFonts.mPlus1(
                     color: Colors.white54,
                     fontSize: 17,
